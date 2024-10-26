@@ -1,0 +1,30 @@
+{
+  "name": "solana-program-deployer",
+  "version": "1.0.0",
+  "description": "Deploy Solana programs with Node.js and optional Jito bundles.",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["solana", "jito", "deployer","js", "sdk", "blockchain", "program", "bundle", "node"],
+  "author": "shadowystupidcoder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadowystupidcoder/solana-program-deployer.git"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.73.0",
+    "bs58": "^5.0.0",
+    "bn.js": "^5.2.1"
+  },
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.mjs"
+    }
+  }
+}
