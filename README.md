@@ -8,7 +8,7 @@ npm install solana-program-deployer
 
 ## Example
 
-```
+``` javascript
 import { Connection, Keypair } from "@solana/web3.js"
 import Deployer from "solana-program-deployer"
 import bs58 from "bs58"
